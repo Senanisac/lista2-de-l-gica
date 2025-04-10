@@ -209,7 +209,7 @@ int main()
 {
     char f1[MAXLEN], f2[MAXLEN];
     
-    printf("Digite a primeira fórmula (ex: (P|Q)) (| = OR e & = AND) :\n");
+    printf("Digite a primeira fórmula (ex: (P|Q)) (| = OR , & = AND e ! = NAO) :\n");
     scanf(" %[^\n]", f1);
     printf("Digite a segunda fórmula (ex: (!( !P & !Q ))) ou outra equivalente :\n");
     scanf(" %[^\n]", f2);
