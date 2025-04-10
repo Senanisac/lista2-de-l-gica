@@ -373,8 +373,8 @@ int main()
     
     // Exibe as formas normais geradas
   
-    printf("\nForma Normal Disjuntiva (DNF): %s\n", dnf);
-    printf("Forma Normal Conjuntiva (CNF): %s\n\n", cnf);
+    printf("\nForma Normal Disjuntiva (FND): %s\n", dnf);
+    printf("Forma Normal Conjuntiva (FNC): %s\n\n", cnf);
     
     printf("| = OR , & = AND e ! = NAO");
     
