@@ -209,6 +209,8 @@ int main()
 {
     char f1[MAXLEN], f2[MAXLEN];
     
+    printf("| = OR , & = AND e ! = NAO\n\n");
+    
     printf("Digite a primeira fórmula (ex: (P|Q)) (| = OR , & = AND e ! = NAO) :\n");
     scanf(" %[^\n]", f1);
     printf("Digite a segunda fórmula (ex: (!( !P & !Q ))) ou outra equivalente :\n");
@@ -237,9 +239,6 @@ int main()
         printf("As fórmulas SÃO logicamente equivalentes.\n");
     else
         printf("As fórmulas NÃO são logicamente equivalentes.\n");
-    
-    printf("\n);
-    printf("| = OR , & = AND e ! = NAO");
     
     return 0;
 }
