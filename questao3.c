@@ -237,6 +237,9 @@ int main()
         printf("As fórmulas SÃO logicamente equivalentes.\n");
     else
         printf("As fórmulas NÃO são logicamente equivalentes.\n");
-
+    
+    printf("\n);
+    printf("| = OR , & = AND e ! = NAO");
+    
     return 0;
 }
